@@ -7,16 +7,15 @@
   <meta charset="utf-8">
   <meta name="google-site-verification" content="VikwqTxe7ybu1qSM7LFgIQpvHLN0_j-iVzaLqF88vEw" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Guodong - {{ page.title }}</title>
-  <meta name="author" content="Guodong Jin" />
-  <meta name="description" content="writing on distributed systems and algorithms" />
+  <title>Annette's Sharing Site</title>
+  <meta name="description" content="Annette's Sharing Site" />
   
-  <link rel="canonical" href="http://ray6080.github.io{{ page.url | replace:'index.html','' }}" />
+  <link rel="canonical" href="http://xiaopingzi.github.io{{ page.url | replace:'index.html','' }}" />
 
   <link href="//fonts.googleapis.com/css?family=Nunito:400,700,300|Varela+Round" rel="stylesheet" type="text/css">
 
   <link rel="shortcut icon" href="/static/favicon.png">
-  <link rel="alternate" type="application/rss+xml" title="Guodong Jin's Blog" href="{{site.url}}/atom.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Annette's Sharing Site" href="{{site.url}}/atom.xml" />
 
   {% if site.github %}
     <link rel="stylesheet" href="/css/site.css?sha={{ site.github.build_revision }}">
@@ -29,8 +28,7 @@
     {{ content }}
   </section>
 
-  {% if site.github %}
-    {% include analytics.html %}
-  {% endif %}
+{% include footer.html %}
+
 </body>
 </html>
